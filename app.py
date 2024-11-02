@@ -31,4 +31,4 @@ def process_video():
     return send_file(output_path, as_attachment=True)
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    app.run(host='0.0.0.0', debug=True)  # No need to specify a port
