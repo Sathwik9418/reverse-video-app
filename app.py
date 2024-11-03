@@ -30,5 +30,5 @@ def process_video():
     # Return the output file to the frontend
     return send_file(output_path, as_attachment=True)
 
-if _name_ == "_main_":
-    app.run(host="0.0.0.0", port=5000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0",port=5000)
