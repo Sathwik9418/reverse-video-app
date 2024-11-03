@@ -35,7 +35,7 @@ The **Reverse Video App** allows users to upload a video, which is then processe
 
 ### Clone the Repository
 
-bash
+
 git clone https://github.com/Sathwik9418/reverse-video-app.git
 cd reverse-video-app
 
@@ -44,14 +44,13 @@ cd reverse-video-app
 
 1. Create a virtual environment (optional but recommended):
 
-   bash
+
    python -m venv venv
    source venv/bin/activate  # On Windows use venv\Scripts\activate
    
 
 2. Install the required Python packages:
 
-   bash
    pip install -r requirements.txt
    
 
@@ -59,7 +58,6 @@ cd reverse-video-app
 
 1. Start the Flask server:
 
-   bash
    python app.py
    
 
